@@ -1,0 +1,48 @@
+h1 {
+    color: rgb(20, 17, 17);
+}
+
+img {
+    width: 500px;
+}
+
+header a {
+    text-decoration: none;
+}
+
+header {
+    margin-bottom: 40px;
+}
+
+body{
+    font-family: arial;
+    padding-left: 10%;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.main-content {
+    flex-grow: 1;
+}
+
+footer {
+    margin-bottom: 10px;
+    border-top: 1px solid rgb(119, 133, 158);
+}
+
+input {
+    border: 1px solid lightgray;
+    padding: 8px;
+    border-radius: 2px;
+    padding-right: 50px;
+}
+
+button {
+    cursor: pointer;
+    background: #4046f9;
+    border: 1px solid black;
+    color: white;
+    padding: 7px;
+    border-radius: 5px;
+}
